@@ -5,6 +5,13 @@ const joinList = evt => {
     const email1 = $("#email_1").value;
     const email2 = $("#email_2").value;
     const firstName = $("#first_name").value;
+    const userEntry =
+     prompt("this is a test of the prompt method", 100);
+
+     let entryA = prompt ("Enter any Value",12345.6789);
+     alert(entryA);
+     entryA = parseInt (entryA);
+     alert(entryA);
  
     // check user entries
     let isValid = true;
@@ -55,4 +62,5 @@ document.addEventListener("DOMContentLoaded", () => {
  
     // set focus on first text box after the form loads
     $("#email_1").focus();
+
 });
