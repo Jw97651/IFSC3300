@@ -12,12 +12,12 @@ h1 {
     color: blue;
 }
 
-/* Navigation Styling */
+
 nav {
-    position: fixed;  /* Fixes links on the screen */
-    right: 20px;  /* Align links to the far right */
-    top: 20px;  /* Position from the top */
-    width: 200px; /* Control width of the nav */
+    position: fixed;
+    right: 20px;
+    top: 20px;
+    width: 200px;
 }
 
 nav ul {
@@ -25,11 +25,11 @@ nav ul {
     padding: 0;
     margin: 0;
     display: flex;
-    flex-direction: column; /* Stack links vertically */
+    flex-direction: column;
 }
 
 nav ul li {
-    margin-bottom: 10px; /* Spacing between links */
+    margin-bottom: 10px;
 }
 
 nav ul li a {
@@ -40,7 +40,7 @@ nav ul li a {
     padding: 10px;
     border-radius: 5px;
     transition: background-color 0.3s, color 0.3s;
-    text-align: right; /* Align text to the right */
+    text-align: right;
 }
 
 nav ul li a:hover {
@@ -48,7 +48,6 @@ nav ul li a:hover {
     color: white;
 }
 
-/* Form Styling */
 div {
     margin-bottom: 1em;
 }
